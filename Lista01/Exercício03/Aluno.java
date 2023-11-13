@@ -11,7 +11,7 @@ package Exercício03;
 
 public class Aluno {
 
-    private int mat;
+    int mat;
     String name;
     private double n1;
     private double n2;
