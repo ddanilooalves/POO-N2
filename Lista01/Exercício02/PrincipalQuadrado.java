@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class PrincipalQuadrado {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.println("Instâncie o lado 2: ");
+            System.out.println("Instâncie o lado 2 do quadrado 1: ");
             double q1 = sc.nextDouble();
-            System.out.println("Instâncie o lado 4: ");
+            System.out.println("Instâncie o lado 4 do quadrado 2: ");
             double q2 = sc.nextDouble();
-            System.out.println("Instâncie o lado 5: ");
+            System.out.println("Instâncie o lado 5 do quadrado 3: ");
             double q3 = sc.nextDouble();
             
             Quadrado quadrado1 = new Quadrado(q1);
