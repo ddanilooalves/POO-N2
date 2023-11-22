@@ -10,27 +10,19 @@ public class Diretor {
         this.ganhadorOscar = ganhadorOscar;
     }
 
-    public String getNome() {
-        return nome;
+    public void setPrincipalFilme(Filme principalFilme) {
+        this.principalFilme = principalFilme;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getNome() {
+        return nome;
     }
 
     public boolean isGanhadorOscar() {
         return ganhadorOscar;
     }
 
-    public void setGanhadorOscar(boolean ganhadorOscar) {
-        this.ganhadorOscar = ganhadorOscar;
-    }
-
     public Filme getPrincipalFilme() {
         return principalFilme;
-    }
-
-    public void setPrincipalFilme(Filme filme) {
-        this.principalFilme = filme;
     }
 }
