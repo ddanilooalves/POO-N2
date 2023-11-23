@@ -75,7 +75,7 @@ public class Pessoa {
     }
 
     public String toString() {
-        return "*** DADOS DO(A) JOGADOR(A) *** \n Nome: " + this.nome + "\n Sexo: " + this.sexo + "\n Número de Lados, 1 dado: " + this.meuDadoDe6Faces.getnLados() + "\n Número de Lados, 2 dado: " + this.meuDadoDe8Faces.getnLados();
+        return "*** DADOS DO(A) JOGADOR(A) ***\n Nome: " + this.nome + "\n Sexo: " + this.sexo + "\n Número de Lados, 1 dado: " + this.meuDadoDe6Faces.getnLados() + "\n Número de Lados, 2 dado: " + this.meuDadoDe8Faces.getnLados();
     }
 
     public int jogarDado6Faces(){

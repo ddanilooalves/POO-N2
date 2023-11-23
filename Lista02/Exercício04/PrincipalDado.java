@@ -16,16 +16,15 @@ public class PrincipalDado {
             String nome = input.nextLine();
             System.out.println(" Digite o sexo do jogador: ");
             String sexo = input.nextLine();
-            input.nextLine();
             Pessoa novaPessoa = new Pessoa(nome, sexo);
             pessoas.add(novaPessoa);
         }
 
-        System.out.println("+++ BEM VINDOS AO JOGO DOS DADOS +++");
+        System.out.println("+++ BEM VINDOS AO JOGO DOS DADOS +++\n");
         for (Pessoa x : pessoas) {
             System.out.println(x);
         }
-        System.out.println("+++ JOGO INICIADO +++");
+        System.out.println("\n+++ JOGO INICIADO +++\n");
 
         int qtdVitoriasP1 = 0; 
         int qtdVitoriasP2 = 0;
@@ -33,7 +32,7 @@ public class PrincipalDado {
 
         for (int i = 0; i < 6; i+=2) {
             int a = i + 1;
-            System.out.println("******************************************");
+            System.out.println("******************************************\n");
             qtdVitoriasP1 = 0; 
             qtdVitoriasP2 = 0;
             do {
@@ -66,8 +65,8 @@ public class PrincipalDado {
                 System.out.println();
             } while(qtdVitoriasP1 < 7 && qtdVitoriasP2 < 7);
 
-            System.out.println("*************************************************");
-            System.out.println("*** FIM DO JOGO ***");
+            System.out.println("******************************************");
+            System.out.println("FIM DO JOGO");
 
             if (qtdVitoriasP1 > qtdVitoriasP2) {
                 System.out.println(pessoas.get(i).getNome() + " VENCEU O JOGO!");
@@ -81,7 +80,7 @@ public class PrincipalDado {
         }
 
         System.out.println("***********************************************");
-        System.out.println("*** FIM DO JOGO ***");
+        System.out.println("FIM DO JOGO");
 
         System.out.println("#### NOME DOS VENCEDORES ####");
 
